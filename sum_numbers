@@ -1,0 +1,12 @@
+def sum_numbers(n):
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    return total
+
+# Запрашиваем у пользователя число
+num = int(input("Введите число: "))
+
+# Вызываем функцию sum_numbers и выводим результат
+result = sum_numbers(num)
+print("Сумма чисел от 1 до", num, "равна:", result)
